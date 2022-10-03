@@ -1,11 +1,11 @@
 body {
-    background-color: rgb(150, 194, 247);
+    background-color: rgba(181, 201, 226, 0.884);
   }
   h1 {
-    color: blue;
+    color: rgb(19, 161, 180);
   }
   p {
-    color: red;
+    color: rgba(16, 16, 17, 0.493);
   }
 div {
     display: block;
