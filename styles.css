@@ -5,8 +5,12 @@ body {
     color: rgb(19, 161, 180);
   }
   p {
-    color: rgba(16, 16, 17, 0.493);
+    color: rgba(48, 41, 41, 0.678);
   }
+  h2 {
+    color: rgb(19, 161, 180);
+  }
+  
 div {
     display: block;
   }
