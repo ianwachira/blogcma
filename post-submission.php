@@ -1,16 +1,7 @@
+<?php
+    include 'header.php';
+?>
 <html>
-<article>
-    <header>
-      <h1>Post Submission</h1>
-      <p>Here is where you can submit posts</p>
-      <link rel="stylesheet" href="styles.css">  
-    </header>
-  </article>
-  <nav>
-    <a href="index.php">Index page</a> |
-    <a href="post-submission.php">Post Submission page</a> |
-    <a href="post.php">Posts</a> 
-  </nav>
   <main>
     <form action="/action_page.php" method="get">
         <label for="title">Title</label>

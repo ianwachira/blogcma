@@ -1,16 +1,7 @@
+<?php
+    include 'header.php';
+?>
 <html>
-<article>
-    <header>
-      <h1>Posts</h1>
-      <p></p>
-      <link rel="stylesheet" href="styles.css">  
-    </header>
-  </article>
-  <nav>
-    <a href="index.php">Index page</a> |
-    <a href="post-submission.php">Post Submission page</a> |
-    <a href="post.php">Posts</a> 
-  </nav>
   <main>
     <h1>Title</h1>
     <head>
