@@ -16,8 +16,4 @@
         <input type="submit" value="Submit">
       </form>
   </main>
-  <footer>
-    <p>Author: Ian Wachira</p>
-    <p><a href="iwachira@lesley.edu">iwachira@lesley.edu</a></p>
-  </footer>
   </html>

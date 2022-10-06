@@ -34,8 +34,4 @@
           </div>
           </body> 
   </main>
-  <footer>
-    <p>Author: Ian Wachira</p>
-    <p><a href="iwachira@lesley.edu">iwachira@lesley.edu</a></p>
-  </footer>
   </html>
