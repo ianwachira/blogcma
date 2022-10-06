@@ -1,4 +1,7 @@
-<html>
+<?php
+    include 'header.php';
+?>
+  <html>
 <article>
     <header>
       <div class="container">
