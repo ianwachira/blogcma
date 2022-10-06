@@ -7,9 +7,9 @@
     </header>
   </article>
   <nav>
-    <a href="index.html">Index page</a> |
-    <a href="post-submission.html">Post Submission page</a> |
-    <a href="post.html">Posts</a> 
+    <a href="index.php">Index page</a> |
+    <a href="post-submission.php">Post Submission page</a> |
+    <a href="post.php">Posts</a> 
   </nav>
   <main>
     <form action="/action_page.php" method="get">
