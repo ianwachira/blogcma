@@ -11,7 +11,7 @@
     $fullName = $firstName . " " . $lastName;   // Concatenation operator
     $dogYears = $age/7;                         // Arithmetic operator              
     $isAdult = $dogYears > 4;                   // Comparison operator
-    $isSettled = $isAdult and $maarried;        // Integer type variable
+    $isSettled = $isAdult and $married;         // Integer type variable
     
     function getIsSettled($age, $married) {     // Function name
         $dogYears = $age/7;
