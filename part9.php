@@ -28,6 +28,10 @@
     } else {
         echo $fullName . " is not settled.";
     }
+
+    foreach($childrenNames as $childName) {
+        echo "<li>" . $childName . "</li";
+    }
 ?>
 
 
