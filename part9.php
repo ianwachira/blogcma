@@ -8,10 +8,11 @@
     $married = true;                            // Boolean type variable 
     $childrenNames = array("Alice", "Bob");     // Array type variable 
 
-    $fullName = $firstName . " " . $lastName;
-    $dogYears = $age/7;
+    $fullName = $firstName . " " . $lastName;   
+    $dogYears = $age/7;                        
     $isAdult = $dogYears > 4;
     $isSettled = $isAdult and $maarried;
+
 ?>
 
 
