@@ -26,10 +26,7 @@
       <p>Microsoft Edge is a web browser developed by Microsoft, released in 2015. Microsoft Edge replaced Internet Explorer.</p>
     </article>
   </main>
-  <footer>
-    <div class="container">
-      <p>Author: Ian Wachira</p>
-      <p><a href="iwachira@lesley.edu">iwachira@lesley.edu</a></p>
-    </div>
-  </footer>
+  <?php
+    include 'footer.php';
+  ?>
   </html>
