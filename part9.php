@@ -13,16 +13,16 @@
     $isAdult = $dogYears > 4;                   // Comparison operator
     $isSettled = $isAdult and $maarried;        // Integer type variable
     
-    function getIsSettled($age, $married) {
+    function getIsSettled($age, $married) {     // Function name
         $dogYears = $age/7;
         $isAdult = $dogYears > 4;
         $isSettled = $isAdult and $married;
-        return $isSettled;
+        return $isSettled;                      // Returned value
     }
 
-    $isSettled = getIsSettled($age, $married);
-    $isSettled = getIsSettled(5, false);
-    
+    $isSettled = getIsSettled($age, $married);  // Using variables
+    $isSettled = getIsSettled(5, false);        // Using values
+
 ?>
 
 
