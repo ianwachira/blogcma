@@ -25,20 +25,15 @@
   <div> <?php echo $postDetails["author"]; ?> </div>
   <div> <?php echo $postDetails["datepublished"]; ?> </div>
   <div> <?php echo $postDetails["postcontent"]; ?> </div>
-        <body>
-        <div class="author">
-        </div>
-        </body>    
-        
-        <body>
-            <div class="datepublished">
-            </div>
-            </body>  
 
-        </body>  
+        <div class="author">
+        </div> 
+        
+        <div class="datepublished">
+        </div>
+
         <div class="postcontent">
-          </div>
-          </body> 
+        </div>
   </main>
   <?php
     include 'footer.php';

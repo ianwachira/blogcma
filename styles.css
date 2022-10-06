@@ -31,7 +31,7 @@ body {
     margin-top: 1.5em;
   }
 
-  header, nav, footer, {
+  header, nav, footer, main {
     max-width: 800px;
     margin-left: auto;
     margin-right: auto;
@@ -44,5 +44,5 @@ body {
   }  
 
   body > footer {
-    border-top: 2px solid aqua;
+    border-top: 2px solid rgb(115, 255, 0);
   } 

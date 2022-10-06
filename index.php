@@ -3,6 +3,7 @@
     include 'nav.php';
 ?>
 <html>
+  <body>
   <main>
   <?php
       function getPostDetailsFromDatabase() {
@@ -44,4 +45,5 @@
   <?php
     include 'footer.php';
   ?>
+  </body>
   </html>
