@@ -16,4 +16,7 @@
         <input type="submit" value="Submit">
       </form>
   </main>
+  <?php
+    include 'footer.php';
+  ?>
   </html>
