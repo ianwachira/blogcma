@@ -23,8 +23,6 @@
     $isSettled = getIsSettled($age, $married);  // Using variables
     $isSettled = getIsSettled(5, false);        // Using values
 
-    echo $fullName;
-
     if ($isSettled) {
         echo $fullName . " is settled.";
     } else {
