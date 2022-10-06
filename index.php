@@ -5,13 +5,21 @@
 <html>
   <main>
   <?php
-    $postTitles = getPostTitlesFromDatabase();
-    
-    foreach($postTitles as $postTitle) {
-      echo "<li><a href='post.php?title=" . $postTitle . "'>" . $postTitle . "</a></li>";
-    }
+      function getPostDetailsFromDatabase() {
+        $postTitles = array("Blog Post 1", "Blog Post 2", "Blog Post 3");
+        return $postTitles;
+      }
   ?>
+<u1>
+    <?php
+      $postTitles = getPostTitlesFromDatabase();
+    
+      foreach($postTitles as $postTitle) {
+          echo "<li><a href='post.php?title=" . $postTitle . "'>" . $postTitle . "</a></li>";
+      }
+    ?>
 </u1>
+    <article class ="container">
     <h1>Most Popular Browsers</h1>
     <p>Chrome, Firefox, and Edge are the most used browsers today.</p>
   
@@ -19,7 +27,6 @@
       <h2>Google Chrome</h2>
       <img src="images/googlechrome.jpg" alt="google" style="width:25%">
       <p>Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular web browser today!</p>
-
     </article>
   
     <article class="container">
