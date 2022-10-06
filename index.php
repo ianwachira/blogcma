@@ -5,13 +5,13 @@
 <html>
   <main>
   <?php
-    function getPostTitlesFromDatabase() {
-      // TODO in Module 4
-      // get this data from a database instead of hardcoding it
-      $postTitles = array("Blog Post 1", "Blog Post 2", "Blog Post 3");
-      return $postTitles;
+    $postTitles = getPostTitlesFromDatabase();
+    
+    foreach($postTitles as $postTitle) {
+      echo "<li><a href='post.php?title=" . $postTitle . "'>" . $postTitle . "</a></li>";
     }
   ?>
+</u1>
     <h1>Most Popular Browsers</h1>
     <p>Chrome, Firefox, and Edge are the most used browsers today.</p>
   
