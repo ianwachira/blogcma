@@ -4,6 +4,12 @@
 ?>
 <html>
   <main>
+  <?php
+    function getPostTitlesFromDatabase() {
+      $postTitles = array("Blog Post 1", "Blog Post 2", "Blog Post 3");
+      return $postTitles;
+    }
+  ?>
     <h1>Most Popular Browsers</h1>
     <p>Chrome, Firefox, and Edge are the most used browsers today.</p>
   
