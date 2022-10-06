@@ -13,8 +13,8 @@
     $isAdult = $dogYears > 4;                   // Comparison operator
     $isSettled = $isAdult and $maarried;        // Integer type variable
     
-    function getFullName($firstName, $lastName) {
-        return $firstName . " " . $lastName;
+    function getFullName($firstName, $lastName) {       // Function name
+        return $firstName . " " . $lastName;            // Returned value
     }
 
 ?>
