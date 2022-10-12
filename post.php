@@ -3,7 +3,6 @@
     include 'nav.php';
 ?>
 <html>
-<h1>Posts</h1>
 <head>
   <main>
   <?php

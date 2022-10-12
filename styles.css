@@ -3,9 +3,6 @@ body {
     background-color: rgb(205, 241, 255);
     margin: auto;
   }
-  h1, h2, h3 {
-    margin: 0.35em;
-  }
 
   h1 {
     font-size: 40px;
@@ -44,5 +41,5 @@ body {
   }  
 
   body > footer {
-    border-top: 2px solid rgb(115, 255, 0);
+    border-top: 2px solid rgb(4, 161, 182, 0.808);
   } 
