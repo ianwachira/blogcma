@@ -11,7 +11,7 @@
         return $postTitles;
       }
   ?>
-<u1>
+<!-- <u1>
     <?php
       $postTitles = getPostTitlesFromDatabase();
     
@@ -19,7 +19,7 @@
           echo "<li><a href='post.php?title=" . $postTitle . "'>" . $postTitle . "</a></li>";
       }
     ?>
-</u1>
+</u1> -->
   </main>
   <?php
     include 'footer.php';
