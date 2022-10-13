@@ -5,21 +5,21 @@
 <html>
   <body>
   <main>
-  <?php
-      function getPostDetailsFromDatabase() {
+   <?php
+      function getPostTitlesFromDatabase() {
         $postTitles = array("Blog Post 1", "Blog Post 2", "Blog Post 3");
         return $postTitles;
       }
-  ?>
-<!-- <u1>
-    <?php
+   ?>
+<ul>
+   <?php
       $postTitles = getPostTitlesFromDatabase();
     
       foreach($postTitles as $postTitle) {
           echo "<li><a href='post.php?title=" . $postTitle . "'>" . $postTitle . "</a></li>";
       }
-    ?>
-</u1> -->
+   ?>
+</ul>
   </main>
   <?php
     include 'footer.php';
