@@ -40,9 +40,12 @@ body {
   }  
 
   footer {
-    position: absolute;
-    bottom: 0;
+    position: fixed;
+    height: 30px;
+    bottom: 20;
     border-top: 2px solid rgb(4, 161, 182, 0.808);
     width: 100%;
-    margin: 0;
+    margin: center;
+    left:0;
+    right:0;
   }
