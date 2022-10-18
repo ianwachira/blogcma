@@ -8,7 +8,7 @@
 </head>
 <body>
   <main>
-    <form action="/action_page.php" method="get">
+    <form action="/submit-post.php" method="POST">
         <label for="title">Title</label>
         <input type="text" id="title" name="title"><br><br>
         <label for="author">Author</label>
@@ -18,7 +18,6 @@
         <label for="content"></label>
         <textarea id="content" name="content" rows="4" cols="50">Text area for content</textarea>
         <input type="submit" value="Submit">
-        <form action="submit-post.php" method="POST"> ... </form>
       </form>
   </main>
   <?php
