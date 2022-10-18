@@ -7,8 +7,7 @@ var married = true;                         // Boolean type variable
 var childrenNames = ["Alice", "Bob"];       // Array type variable
 var husband = { firstName: "John", lastName: "Doe", age: 35 }    
             
-if (isSettled) {
-    document.write(fullName + " is settled.");
-} else {
-    document.write(fullName + " is not settled.");
-}
+childrenNames.forEach(function(childName) {
+    document.write("<li>" + childName + " 
+   li>");
+});
