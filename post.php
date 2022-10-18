@@ -10,33 +10,21 @@
 <body>
   <main>
   <?php
-    function getPostDetailsFromDatabase() {
+    
+function getPostDetailsFromDatabase() {
+  // Get the post title
+  $postTitle = rawurldecode($_GET["title"]);
 
+  // Get the post that matches the postTitle
+  include_once 'db_connect.php';
+  $sql = "SELECT * FROM posts WHERE title='" . $postTitle . "'";
+  $result = mysqli_query($conn, $sql);
 
-       $postDetails = array('title' => 'Blog Post 1',
-                            'postcontent' => 'My first blog post',
-                            'datepublished' => '10/06/2022',
-                            'author' => 'ianw');
-
-       return $postDetails;
-    }
+  // Get the first row from the result as an associative array
+  $postDetails = mysqli_fetch_assoc($result);
+  return $postDetails;
+}
   ?>
-  <?php
-      $postDetails = getPostDetailsFromDatabase();
-  ?>
-  <h1> <?php echo $postDetails["title"]; ?> </h1>
-  <div> <?php echo $postDetails["author"]; ?> </div>
-  <div> <?php echo $postDetails["datepublished"]; ?> </div>
-  <div> <?php echo $postDetails["postcontent"]; ?> </div>
-
-        <div class="author">
-        </div> 
-        
-        <div class="datepublished">
-        </div>
-
-        <div class="postcontent">
-        </div>
   </main>
   <?php
     include 'footer.php';

@@ -18,6 +18,7 @@
         <label for="content"></label>
         <textarea id="content" name="content" rows="4" cols="50">Text area for content</textarea>
         <input type="submit" value="Submit">
+        <form action="submit-post.php" method="POST"> ... </form>
       </form>
   </main>
   <?php
