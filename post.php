@@ -23,7 +23,7 @@ function getPostDetailsFromDatabase() {
   // Get the first row from the result as an associative array
   $postDetails = mysqli_fetch_assoc($result);
   return $postDetails;
-}
+  }
   ?>
   </main>
   <?php

@@ -24,13 +24,13 @@ function getPostTitlesFromDatabase() {
 }
    ?>
    <?php
-      // Display post titles
-      $postTitles = getPostTitlesFromDatabase();
-      foreach ($postTitles as $postTitle) {
-        echo "<li><a href='post.php?title=" . $postTitle . "'>" . $postTitle .
-          "</a></li>";
-      }
-      ?>
+   // Display post titles
+   $postTitles = getPostTitlesFromDatabase();
+   foreach ($postTitles as $postTitle) {
+   echo "<li><a href='post.php?title=" . $postTitle . "'>" . $postTitle .
+   "</a></li>";
+   }
+   ?>
 </ul>
   </main>
   <?php
