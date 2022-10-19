@@ -2,12 +2,14 @@
     include 'header.php';
     include 'nav.php';
 ?>
-<script src="hello.js"></script>
+<script src="blogcms/hello.js"></script>
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
+   <button onclick="revealMesssage()">Hello</button>
+<p id="hiddenMessage" style="display:none">Hi There!</p>
   <main>
    <?php     
 function getPostTitlesFromDatabase() {
